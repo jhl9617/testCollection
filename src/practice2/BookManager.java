@@ -1,7 +1,12 @@
 package practice2;
 
-import java.io.*;
-import java.util.*;
+import java.io.FileOutputStream;
+import java.io.IOException;
+import java.io.ObjectOutputStream;
+import java.util.ArrayList;
+import java.util.Iterator;
+import java.util.ListIterator;
+import java.util.Scanner;
 
 public class BookManager {
 
@@ -115,14 +120,14 @@ public class BookManager {
     }
 
     public void fileRead() {
-        //books.dat 파일에서 읽어온 객체정보를 리스트에 추가
-
-        try (ObjectInputStream oIn = new ObjectInputStream(new FileInputStream("books.dat"))){
-            for(Object obj : )
-
-
-        } catch (IOException | ClassNotFoundException e) {
-            throw new RuntimeException(e);
-        }
+//        //books.dat 파일에서 읽어온 객체정보를 리스트에 추가
+//
+////        try (ObjectInputStream oIn = new ObjectInputStream(new FileInputStream("books.dat"))){
+////            for(Object obj : )
+//
+//
+//        } catch (IOException | ClassNotFoundException e) {
+//            throw new RuntimeException(e);
+//        }
     }
 }

@@ -19,6 +19,7 @@ public class TestLinkedHashSet {
 
         //iterator()로 목록 만들어서 하나씩 꺼내기
         Iterator  iter = set.iterator();
+
         while(iter.hasNext()){
             Object obj = iter.next();
             System.out.println(obj);

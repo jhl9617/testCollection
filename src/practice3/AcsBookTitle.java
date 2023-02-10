@@ -1,6 +1,8 @@
-package practice2;
+package practice3;
 
-public class AscCategory implements java.util.Comparator{
+import practice2.Book;
+
+public class AcsBookTitle implements java.util.Comparator{
     @Override
     public int compare(Object o1, Object o2) {
         int result = 0;
@@ -8,7 +10,7 @@ public class AscCategory implements java.util.Comparator{
 
             Book h1 = (Book) o1;
             Book h2 = (Book) o2;
-            result = Integer.compare(h1.getCategory(), h2.getCategory());
+            return h1.getTitle().compareTo(h2.getTitle());
         }
         return result;
     }
