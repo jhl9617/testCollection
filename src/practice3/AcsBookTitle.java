@@ -14,6 +14,4 @@ public class AcsBookTitle implements java.util.Comparator{
         }
         return result;
     }
-
-
 }
